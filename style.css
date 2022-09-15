@@ -51,8 +51,8 @@ body {
 	width: 50%;
 	/* filter: blur(5px); */
 	background: url('images/before.png') no-repeat;
-	background-size: cover;
-	object-position: center;
+	/* background-size: cover; */
+	/* object-position: center; */
 	/* background-position: center; */
 	/* background: url("images/car.png") no-repeat; */
 }
@@ -91,7 +91,7 @@ body {
 	content: '';
 	width: 100%;
 	height: 222px;
-	background: #fff;
+	background: #eee;
 }
 .slider .drag-line::before {
 	top: 0;
@@ -102,7 +102,7 @@ body {
 .slider .drag-line span {
 	height: 42px;
 	width: 42px;
-	border: 3px solid #fff;
+	border: 3px solid #eee;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -121,9 +121,9 @@ body {
 }
 .slider .drag-line span::before {
 	left: 40%;
-	border-left-color: #fff;
+	border-left-color: #eee;
 }
 .slider .drag-line span::after {
 	left: 60%;
-	border-top-color: #fff;
+	border-top-color: #eee;
 }
