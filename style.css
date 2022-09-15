@@ -51,11 +51,19 @@ body {
 	width: 50%;
 	/* filter: blur(5px); */
 	background: url('images/before.png') no-repeat;
-	/* background-size: cover; */
-	/* object-position: center; */
-	/* background-position: center; */
-	/* background: url("images/car.png") no-repeat; */
 }
+
+.wrapper .images .img-2::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.457);
+}
+
 .wrapper .slider {
 	position: absolute;
 	top: 0;
